@@ -15,11 +15,11 @@ body{
 #image{ 
     display: block;
     margin : 10px auto;
-    max-width: 80%;
+    max-width: 70%;
     max-height: 90%; 
     min-width: 200px;
     min-height: 40px;
-    padding: 1em 1em 0em 1em
+    padding: 1em 1em 0em 1em;
 }
 #img-caption{
     padding: 0em 1em 1em;
