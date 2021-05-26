@@ -15,8 +15,7 @@ body{
 #image{ 
     display: block;
     margin : 10px auto;
-    max-width: 70%;
-    max-height: 90%; 
+    max-width: 60%;
     min-width: 200px;
     min-height: 40px;
     padding: 1em 1em 0em 1em;
@@ -30,7 +29,7 @@ body{
 #tribute-info{
     display: inline-block;
     text-align: left;
-    max-width: 700px;
+    max-width: 60%;
 }
 #tribute-info li{
     margin-bottom: 1em;
@@ -38,5 +37,20 @@ body{
 }
 footer{ 
     padding: 1em 1em 1em;
+}
+
+@media  only screen and (max-width: 990px) {
+	#image{ 
+        display: block;
+        margin : 10px auto;
+        max-width: 85%;
+        min-width: 200px;
+        padding: 1em 1em 0em 1em;
+    }
+    #tribute-info{
+        display: inline-block;
+        text-align: left;
+        max-width: 85%;
+    }
 }
 
